@@ -142,6 +142,15 @@
     <Filter Include="ソース ファイル\MyClass\Enemy">
       <UniqueIdentifier>{218faebe-e544-4eae-8284-03c156da6cc8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\MyClass\Player\PlayerBace">
+      <UniqueIdentifier>{f51f2a1c-9376-40be-81ea-aec977dbbe12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyClass\Player\Hero">
+      <UniqueIdentifier>{b5656e86-4136-499c-9bc5-0e3f5d633569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MyClass\Player\Princess">
+      <UniqueIdentifier>{101d48ff-4ce7-4182-ad7c-bec6a315eba7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp">
@@ -301,14 +310,17 @@
     <ClCompile Include="MyClass\Manager\ResultScene\ResultScene.cpp">
       <Filter>ソース ファイル\MyClass\Manager\ResultScene</Filter>
     </ClCompile>
-    <ClCompile Include="MyClass\Player\Player.cpp">
-      <Filter>ソース ファイル\MyClass\Player</Filter>
-    </ClCompile>
     <ClCompile Include="MyClass\Enemy\Enemy.cpp">
       <Filter>ソース ファイル\MyClass\Enemy</Filter>
     </ClCompile>
-    <ClCompile Include="MyClass\Enemy\EnemyShot.cpp">
-      <Filter>ソース ファイル\MyClass\Enemy</Filter>
+    <ClCompile Include="MyClass\Player\PlayerBace\PlayerBace.cpp">
+      <Filter>ソース ファイル\MyClass\Player\PlayerBace</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\Player\Hero\Hero.cpp">
+      <Filter>ソース ファイル\MyClass\Player\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClass\Player\Princess\princess.cpp">
+      <Filter>ソース ファイル\MyClass\Player\Princess</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -490,14 +502,17 @@
     <ClInclude Include="MyClass\Manager\ManagerBase.h">
       <Filter>ソース ファイル\MyClass\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="MyClass\Player\Player.h">
-      <Filter>ソース ファイル\MyClass\Player</Filter>
-    </ClInclude>
     <ClInclude Include="MyClass\Enemy\Enemy.h">
       <Filter>ソース ファイル\MyClass\Enemy</Filter>
     </ClInclude>
-    <ClInclude Include="MyClass\Enemy\EnemyShot.h">
-      <Filter>ソース ファイル\MyClass\Enemy</Filter>
+    <ClInclude Include="MyClass\Player\PlayerBace\PlayerBace.h">
+      <Filter>ソース ファイル\MyClass\Player\PlayerBace</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\Player\Hero\Hero.h">
+      <Filter>ソース ファイル\MyClass\Player\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass\Player\Princess\princess.h">
+      <Filter>ソース ファイル\MyClass\Player\Princess</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
